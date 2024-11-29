@@ -1,0 +1,16 @@
+.puzzle-piece {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    background-color: #3bb10d;
+    font-size: 2em;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .puzzle-piece.empty {
+    background-color: transparent;
+    cursor: default;
+  }
+  
